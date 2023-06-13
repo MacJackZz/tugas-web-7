@@ -1,0 +1,105 @@
+body{
+    margin-top: 71px;
+}
+
+.nav-item{
+    font-family: 'Oswald', sans-serif;
+    margin-right: 25px;
+    font-size: 18px;
+}
+
+
+.navbar-nav li.active > a {
+	color: #fff;
+}
+
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url('img/profile-background.png');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    z-index: -999;
+}
+
+section{
+    padding-top: 3rem;
+    min-height: 450px;
+}
+
+.judul, .about{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+.about{
+    margin-top: 50px;
+}
+
+
+
+.judul{
+    /* line-height: 450px; */
+    font-size: 50px;
+    text-shadow: 0 0 7px rgba(0, 0, 0, .75);
+}
+
+.contact{
+    margin-bottom: 30px;
+}
+
+#news{
+    /* background-color: #6c757d; */
+    background-color: #bcbcbc;
+    display: flex;
+}
+
+.clients{
+    align-content: start;
+    
+}
+
+.clients img{
+    margin: 0 40px;
+}
+
+.company{
+    height: 150px;
+}
+
+
+.card:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, .7);
+}
+
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+    font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Transisco Systems</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- Style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font -->
+    <!-- Oswald -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Josefin Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600;700&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body id="home">
+
+
+
+    <!-- Navbar -->
+    
+    <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo-navbar-1.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link " href="#about">ABOUT US</a>
+                </li>
+                <li class="nav-item ">
+                <a class="nav-link" href="product.html">PRODUCT</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#news">OUR CLIENTS</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#contact">CONTACT US</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    
+    <!-- Akhir Navbar -->
+
+    <div class="jumbotron text-white jumbotron-image shadow pt-4" 
+        style="background-image: url(img/img-2.png);">
+        <h2 class="text-center mt-5 judul">
+            Solving Your Problems
+        </h2>
+    </div>
+
+    <section id="about">
+        <div class="container">
+            <h1 class="text-center pt-4 mb-2 about" >About</h1>
+            
+            <p class="col-sm-6 align-self-center offset-sm-3 text-center fs-4">
+                Transisco System is an IT consulting company engaged in the construction of telecommunication towers, sound engineering, 3D printing technology, server handling and maintenance, hardware repair and maintenance of manufacturing machines. Our mission is to provide the highest quality technology-based services. With the best quality and consistency, we provide clients with effective solutions. 
+            </p>
+    </section>
+    
+    <section id="news" class="shadow">
+        <div class="container clients text-center">
+            <h1 class="text-center pt-4 text-white about" >Our Clients</h1>            
+            <img class="img-fluid mb-3" src="img/client-list-1.png" alt="" srcset="">
+            
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="row text-center pt-4 mb-3">
+                <div class="col">
+                    <h1>Contact Us</h1>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-4">
+                    <div class="card text-white bg-dark">
+                        <img src="img/contact.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>“There is no greater agony than bearing an untold story inside you.”</p>
+                                <footer class="blockquote-footer"><cite title="Source Title"> Maya Angelou</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5">
+                    <form method="post" name="myemailform" action="mail.php">
+                        <label for="nama">Name :</label>
+                        <input type="text" class="form-control" id="nama">
+                        <label for="email" class="col-form-label mt-2">Email :</label>
+                        <input type="text" class="form-control" id="email">
+                        <label for="noTelp" class="col-form-label mt-2">Phone Number :</label>
+                        <input type="text" class="form-control" id="noTelp">
+                        <label for="exampleFormControlTextarea1" class="mt-2">Message :</label>
+                        <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="4"></textarea>
+                        <button type="submit" class="btn btn-dark mt-2">Send</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+<!-- Akhir Contact -->
+
+<footer class="text-body-secondary py-5 bg-dark" data-bs-theme="dark">
+    <div class="container">
+      <p class="float-end mb-1">
+        <a href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"></path>
+              </svg>
+
+        </a>
+      </p>
+      <p class="mb-1">&copy; Transisco System Ltd. 2023</p>
+      <p class="mb-0">For more information  read our <a href="#">Privacy & Policy</a>.</p>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<a href="https://api.whatsapp.com/send?phone=62895635938360&text=Permisi%21%20Saya%20tertarik%20untuk%20berbisnis%20dengan%20anda." class="float" target="_blank">
+<i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+  </body>
+</html>
